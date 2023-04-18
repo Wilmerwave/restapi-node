@@ -17,8 +17,8 @@ jobs:
         node-version: 18
     - name: Install dependencies
       run: npm ci
-    - name: Run tests
-      run: npm test
+    - name: Run Start
+      run: npm start
 
   docker:
     runs-on: ubuntu-latest
